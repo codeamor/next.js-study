@@ -5,17 +5,17 @@ export const Nav = () => {
   return (
     <Menu inverted>
       <Menu.Item
-        name="home"
+        name="Home"
         active={activeItem === "home"}
         // onClick={this.handleItemClick}
       />
       <Menu.Item
-        name="messages"
+        name="About"
         active={activeItem === "messages"}
         // onClick={this.handleItemClick}
       />
       <Menu.Item
-        name="friends"
+        name="Contact Us"
         active={activeItem === "friends"}
         // onClick={this.handleItemClick}
       />
